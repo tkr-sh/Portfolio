@@ -30,4 +30,11 @@
 
     font-weight: 700;
   }
+
+  .content-key {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
 }

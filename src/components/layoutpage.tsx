@@ -6,6 +6,7 @@ import StartScreen from "./StartScreen";
 import ClickE from "./clickE";
 import SettingsMenu from "./SettingsMenu";
 import Music from "./Music";
+import Controls from "./controls";
 
 
 
@@ -20,6 +21,7 @@ const Main = () => {
     const [musicOpened, setMusicOpened] = useState<boolean>(false);
     const [cursorLocked, setCursorLocked] = useState<boolean>(true);
     const [loaded, setLoaded] = useState<number>(0);
+    const [hideControls, setHideControls] = useState<boolean>(false);
     let startButtonRef = useRef(null);
     let clickHereRef = useRef(null) 
     
@@ -29,11 +31,23 @@ const Main = () => {
         setTimeout(checkCursorLock, 100);
     }
 
+    if (typeof window !== undefined) {
+        window.addEventListener("keydown", () => {
+            if (cursorLocked) {
+                setHideControls(true);
+            }
+        });
+    }
+
 
     useEffect(() => console.log(settingsOpened), [settingsOpened]);
     useEffect(checkCursorLock, []);
 
     return <>
+        {
+            !hideControls && 
+            <Controls/>
+        }
         <Music
             show={musicOpened}
             setShow={setMusicOpened}
