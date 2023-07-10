@@ -1,0 +1,33 @@
+.clickE {
+  position: fixed;
+
+  bottom: 10px;
+  right: 10px;
+
+  padding: 10px;
+  border-radius: 15px;
+  border: solid 3px #fff;
+
+  background: #fff2;
+
+  width: min(calc(100vw - 20px), 400px);
+
+  display: inline;
+
+  font-weight: 500;
+
+  .key {
+    padding: 0px;
+    border-radius: 5px;
+    border: solid 2px #fff;
+
+    background: #fff3;
+
+    padding-inline: 10px;
+    padding-block: 1px;
+
+    display: inline;
+
+    font-weight: 700;
+  }
+}

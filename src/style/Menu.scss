@@ -1,0 +1,148 @@
+$background-aside: #e8995b;
+$color-aside: #885922;
+
+main.Menu {
+    width: 80vw;
+    height: 80vh;
+    top: 10vh;
+    left: 10vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    position: fixed;
+
+
+    .arrow-back {
+        position: fixed;
+
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: .5s;
+
+        font-weight: 900;
+        font-size: 40px;
+
+        background: #fff1;
+
+        border: none;
+        border-bottom-right-radius: 15px;
+
+        cursor: pointer;
+
+        &:hover {
+            background: #fff4;
+        }
+    }
+
+
+    & > div {
+        width:  calc(100% / 3 - 5px);
+        position: relative;
+        height: 50%;
+        
+        cursor: pointer;
+
+        &:hover {
+            // background: #f006;
+        }
+
+        span {
+            position: absolute;
+            width: 100%;
+            font-weight: 700;
+            font-size: 40px;
+            text-align: center;
+        }
+    }
+
+    aside {
+        $margin : 10px;
+        $padding: 10px;
+        margin: 10px;
+        width: calc(60vw - $padding * 2 - $margin * 2);
+        padding: $padding;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: $background-aside;
+        color: $color-aside;
+        border-radius: 5px;
+
+        & > a {
+            color: darken(saturate($background-aside, 100%), 15%);
+            font-weight: 700;
+            transition: 0.3s;
+            margin-top: 100px;
+
+            &:hover {
+                color: darken(saturate($background-aside, 100%), 5%);
+            }
+        }
+    }
+
+    h1 {
+        font-size: 4vh;
+    }
+
+    .spacer {
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background: $color-aside;
+
+        &.small {
+            height: 3px;
+        }
+    }
+
+    p {
+        margin-block: 10px !important;
+        font-weight: 500;
+        white-space: pre-wrap;
+    }
+
+    .content-lang {
+        margin-top: 5px;
+        background: desaturate(darken($background-aside, 10%), 15%);
+        padding-inline: 10px;
+        padding-block: 5px;
+        border-radius: 5px;
+
+        display: flex;
+        gap: 5px;
+
+        a { height: 30px }
+
+        img {
+            height: 30px;
+        }
+
+        .elem {
+            width: 100%;
+            background: desaturate(darken($background-aside, 20%), 25%);
+            padding: 7px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                color: #eca;
+            }
+        }
+
+        &.small {
+            margin: 0;
+            padding-left: 0;
+            background: #0000;
+            margin-bottom: 5px;
+        }
+    }
+}

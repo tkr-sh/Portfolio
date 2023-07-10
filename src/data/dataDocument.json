@@ -1,0 +1,36 @@
+{
+  "python": {
+    "rotation.y": "- Math.PI / 2",
+    "position.y": "0.75",
+    "scale.x": "1.5",
+    "scale.y": "1.5",
+    "scale.z": "1.5"
+  },
+  "mysql": {
+    "scale.x": "2.5",
+    "scale.y": "2.5",
+    "scale.z": "2.5"
+  },
+  "php": {
+    "scale.x": "1.5",
+    "scale.y": "1.5",
+    "scale.z": "1.5"
+  },
+  "sass": {
+    "scale.x": "1.5",
+    "scale.y": "1.5",
+    "scale.z": "1.5"
+  },
+  "css": {
+    "scale.x": "15",
+    "scale.y": "15",
+    "scale.z": "15",
+    "position.y": "-0.75"
+  },
+  "html": {
+    "scale.x": "15",
+    "scale.y": "15",
+    "scale.z": "15",
+    "position.y": "-0.75"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "blender": {
+    "img": "blender",
+    "link": "https://www.blender.org/"
+  },
+  "next.js": {
+    "img": "next",
+    "link": "https://nextjs.org/"
+  },
+  "nginx": {
+    "img": "nginx",
+    "link": "https://nginx.org/"
+  },
+  "node.js": {
+    "img": "node",
+    "link": "https://nodejs.org/"
+  },
+  "php": {
+    "img": "php",
+    "link": "https://www.php.net/"
+  },
+  "python": {
+    "img": "python",
+    "link": "https://www.python.org/"
+  },
+  "ruby": {
+    "img": "ruby",
+    "link": "https://www.ruby-lang.org/"
+  },
+  "shell": {
+    "img": "bash",
+    "link": "https://www.gnu.org/software/bash/"
+  },
+  "solid.js": {
+    "img": "solid",
+    "link": "https://www.solidjs.com/"
+  },
+  "three.js": {
+    "img": "threejs",
+    "link": "https://threejs.org/"
+  },
+  "typescript": {
+    "img": "typescript",
+    "link": "https://www.typescriptlang.org/"
+  },
+  "vite": {
+    "img": "vite",
+    "link": "https://vitejs.dev/"
+  }
+}

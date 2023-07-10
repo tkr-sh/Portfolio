@@ -1,0 +1,126 @@
+[
+  {
+    "title": "WeekGolf",
+    "date": "July 2022",
+    "description": "WeekGolf is a website about code golf. Every week, there is a new challenge in weekgolf, that user can solve. At first, nobody can see the solution of other people, but after 1 week, solutions are available.\nWeekGolf has over 30 languages supported, and since its running since 2022, it has over 50 golfing problems available.\n\nAt first, WeekGolf was wrote using JavaScript and PHP, but later on, I rewrote everything for it to work with the framework Solid.JS and TypeScript",
+    "stack": [
+        [
+          {
+            "title": "Front-End",
+            "stack": [
+              "HTML",
+              "CSS",
+              "JavaScript"
+            ]
+          },
+          {
+            "title": "Back-End",
+            "stack": ["PHP", "Docker"]
+          },
+          {
+            "title": "Database",
+            "stack": ["MySQL"]
+          }
+        ],
+        [
+          {
+            "title": "Front-End",
+            "stack": [
+              "Solid.JS",
+              "TypeScript",
+              "Sass",
+              "Webpack",
+              "Vite"
+            ]
+          },
+          {
+            "title": "Back-End",
+            "stack": [
+              "Node.JS",
+              "TypeScript",
+              "Express",
+              "Nginx",
+              "Docker"
+            ]
+          },
+          {
+            "title": "Database",
+            "stack": ["MariaDB"]
+          }
+        ]
+    ],
+    "link": "WeekGolf"
+  },
+  {
+    "title": "FlagFight",
+    "date": "Feburary 2023",
+    "description": "FlagFight is a website about Flags and Quiz.\nThere are over 300 flags to learn\n\nThere are multiple way you can learn them. The first one being playing offline and customize which flags do you want to learn. But you can also play online with stranger or with friends.\nYou can customize your experience by buying flags or messages in the shop!",
+    "stack": [
+      [
+        {
+          "title": "Front-End",
+          "stack": [
+            "React",
+            "JavaScript",
+            "Sass",
+            "Webpack"
+          ]
+        },
+        {
+          "title": "Back-End",
+          "stack": [
+            "JavaScript",
+            "Express",
+            "Nginx"
+          ]
+        },
+        {
+          "title": "Database",
+          "stack": ["MongoDB"]
+        }
+      ]
+    ],
+    "link": "flagfightworld"
+  },
+  {
+    "title": "Portfolio",
+    "description": "This portfolio has 2 parts. The one that you're in, this 3D world, or a classic website.\nIf you're computer doesn't support well the 3D graphics, you can still visit the other. There are already some websites that use 3D and Three.JS but not a lot chose to use a first person view mechanic.\n\nIn this world, I tried to create a relaxing and calm atmosphere inspired by the Japan culture.",
+    "date": "June 2023",
+    "stack": [
+      "Next.JS",
+      "TypeScript",
+      "Sass",
+      "Three.JS",
+      "Blender"
+    ],
+    "link": "portfolio"
+  },
+  {
+    "title": "LangFetch",
+    "description": "Langfetch is a tool for UNIX system to display the version of programming languages in their system.\nThe tool support wide variety of customization and was inspired by neofetch.<br/>To display the ASCII art, a Python program analyses and SVG which correspond to the logo of the programming language and converts it to a set of characters.\nThe tool is mostly written in Python and is available in the AUR (the Arch User repository)",
+    "date": "May 2023",
+    "stack": [
+      "Python",
+      "Shell"
+    ],
+    "link": "langfetch"
+  },
+  {
+    "title": "CustomCodinGameClient",
+    "description": "This custom client for codingame was created to code faster in clash of code.\nIt set's up proxy, that get all trafic going through the browser to get all the data of the problem (title, statement, test cases).\nAfter that, I also created an extension of Python, so that you can do more things by typing less.\nThis is made possible by modifying the AST and creating custom classes, and exporting everything in one file.When the user want to test the validity of the code, he can press a key, and a docker container will launch to execute the program with all different test cases.\nIf the program is valid, it will send it to CodinGame.\n\nThis client is actually very good, since I got the <b>#1</b> place in the world using it.",
+    "date": "April 2023",
+    "stack": [
+      "Python",
+      "Shell",
+      "Ruby",
+      "Docker"
+    ],
+    "link": "CustomCodinGameClient"
+  },
+  {
+    "title": "More...",
+    "date": "April 2019",
+    "description": "I have some other small projects on my GitHub that might interest you!",
+    "link": ""
+  }
+]

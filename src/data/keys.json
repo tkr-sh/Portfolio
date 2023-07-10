@@ -1,0 +1,9 @@
+{
+  "forward": "w",
+  "left": "a",
+  "right": "d",
+  "back": "s",
+  "jump": " ",
+  "exit": "q",
+  "menu": "e"
+}
