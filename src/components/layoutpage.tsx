@@ -31,7 +31,7 @@ const Main = () => {
         setTimeout(checkCursorLock, 100);
     }
 
-    if (typeof window !== undefined) {
+    if (typeof window !== "undefined") {
         window.addEventListener("keydown", () => {
             if (cursorLocked) {
                 setHideControls(true);

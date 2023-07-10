@@ -6,7 +6,7 @@ import keys from "@/data/keys.json"
 const keysTyped: {[key: string]: string} = keys;
 
 const Controls = () => {
-    const allKeys: {[key: string]: string} = {...keysTyped, ...JSON.parse(localStorage.getItem("keys") ?? '{}')}
+    const allKeys: {[key: string]: string} = {...keysTyped, ...JSON.parse(typeof localStorage === 'undefined' ? '{}' : (localStorage?.getItem("keys") ?? '{}'))}
 
     return <div className="clickE">
         The keys to move are:
